@@ -19,3 +19,9 @@ Route::get('/mahasiswa', function () {
 
     return view('universitas.mahasiswa')->with('mhs', $array_nama);
 });
+
+// Keterangan route
+Route::get('/admin', function () {
+
+    return view('dashboard');
+});
